@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+    .nav .nav-first>img{
+        width: 4vw;
+    }
+    .nav .nav-first>h3{
+       font-size: 2vw;
+    }  
+    .nav .nav-secound>h4{
+        font-size: 2vw;
+        font-weight: 200;
+    }
+    .nav .nav-third .circle{
+   
+        height: 1vh;
+        width: 2vw;
+       
+    }
+    .page1{
+        min-height: 70vh;
+    
+    }
+    .nav{
+        padding: 3vh 4vw;
+     
+    }
+    .page2 {
+        min-height: 60vh;
+        width: 100%;
+      
+      }
+      .page3{
+        min-height: 60vh;
+        width: 100%;
+        padding: 15vw;
+      }
+      .page3 .elm img{
+        height: 15vh;
+      }
+      .page3 .elm img:nth-child(1) {
+        left: -8%;
+      }
+      .page3 .elm img:nth-child(3) {
+        right: -8%;
+      }
+      .page3 .elm .text-div{
+        height: 2vh;
+      }
+      
+      .page3 .elm .text-div h1{
+        font-size: 4vw;
+      }
+      .page3 .greeting .text-greting{
+        /* background-color: blue; */
+        height: 3.3vh;
+        overflow: hidden;
+      }
+      .greeting{
+        /* background-color: #8f2727; */
+        margin-top: 25vh;
+      }
+}
